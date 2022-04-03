@@ -1,0 +1,14 @@
+[package]
+name = "syn-unnamed-struct"
+version = "0.1.0"
+edition = "2021"
+description = "Extends syn expressions and meta structs with unnamed structs and meta lists"
+repository = "https://github.com/andrewlowndes/syn-unnamed-struct"
+license = "MIT OR Apache-2.0"
+keywords = ["syn", "parse", "toTokens", "struct", "meta"]
+categories = ["development-tools::procedural-macro-helpers", "parser-implementations", "rust-patterns"]
+
+[dependencies]
+syn = {version = "1", features = ["full", "printing"]}
+quote = {version = "1"}
+proc-macro2 = "1"
